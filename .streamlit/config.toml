@@ -1,8 +1,8 @@
 [theme]
 base="dark"
-primaryColor="#FF4BBD"
-backgroundColor="#283243"
-secondaryBackgroundColor="#5b5e73"
+primaryColor="#1D95D4" # selection color of highlighted
+backgroundColor="#131313" #main background 2C3845
+secondaryBackgroundColor="#D70E55" # sidebar and highliths 1D95D4 blue 1D95D4
 # base="dark"
 # primaryColor="#2d5fa2"
 # backgroundColor="#22304e"

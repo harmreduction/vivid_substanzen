@@ -1,28 +1,46 @@
 
 import streamlit as st
+from streamlit_option_menu import option_menu
+
 
 st.set_page_config(
-     page_title="Drug Risks / Riesgos de las Drogas",
+     page_title="Vivid Substanzen",
      page_icon="https://pbs.twimg.com/profile_images/1396102254487384065/ZjD8GvMw_400x400.png",
      layout="wide", #centered wide
      initial_sidebar_state="expanded",
      menu_items={
          'Get Help': 'https://github.com/franasal/MCDA-drug-harms',
          'Report a bug': "https://github.com/franasal/MCDA-drug-harms",
-         'About': "**App Author: [Francisco Arcila](https://twitter.com/franarsal/)** \n\nConcept design: Philine Edbauer, Francisco Arcila. \n\nTranslations: Philine Edbauer, Lukas Basedow."
+         'About': "**App Author: [Francisco Arcila](https://twitter.com/franarsal/)** \n\nConcept design: Francisco Arcila."
      }
  )
 
 #app.py
-import en_app, es_app, de_app
+import en_app, es_app, de_app, de_substances, de_disclaimer
 
 PAGES = {
-    "English": en_app,
-    "Español": es_app,
-    "Deutsch": de_app,
+    "Substanzen": de_substances,
+    "MCDA Drugs": en_app,
+    "Disclaimer": de_disclaimer,
 }
-vod_icon=' <img src="https://pbs.twimg.com/profile_images/1396102254487384065/ZjD8GvMw_400x400.png" alt="drawing" width="50"/>   -Know your Drugs-  <img src="https://pbs.twimg.com/media/E1_0586WQAYCNym?format=png&name=small" alt="drawing" width="50"/>'
+
+
+
+vod_icon='[<img src="https://vivid-hamburg.de/wp-content/uploads/2020/05/logo_lang.jpg"  alt="centered image" class="center" width="300"/>](https://vivid-hamburg.de/)'
 st.sidebar.markdown(vod_icon,  unsafe_allow_html=True)
-selection = st.sidebar.radio("",list(PAGES.keys()))
+#
+title_alignment= ' <div style="text-align: center"> -Know your Drugs- </div>  '
+#
+st.sidebar.markdown(title_alignment, unsafe_allow_html=True)
+
+with st.sidebar:
+    selection = option_menu("", list(PAGES.keys()),
+    icons=['file-earmark-text','bar-chart-line', 'info-circle'], menu_icon="cast", default_index=0,
+    styles={
+        "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px"},
+        "nav-link-selected": {"background-color": "ffffff"},
+    })
+
+# selection = st.sidebar.radio("",list(PAGES.keys()))
 page = PAGES[selection]
 page.main()
