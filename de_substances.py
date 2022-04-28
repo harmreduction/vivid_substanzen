@@ -42,21 +42,21 @@ def main():
         st.markdown(f"# {subs_dict[substance]['Substanz']}")
 
 
-    st.info(f"### {subs_dict[substance]['Beschreibung']}")
+    st.info(f"###### {subs_dict[substance]['Beschreibung']}")
 
     col3, col4 = st.columns(2)
 
     with col3:
 
-        st.markdown(f"### {'Dosierung'}")
+        st.markdown(f"#### {'Dosierung'}")
         st.dataframe(subs_dict[substance]["dose_df"])
 
     with col4:
 
-        st.markdown(f"### {'Wirkdauer'}")
+        st.markdown(f"#### {'Wirkdauer'}")
         st.dataframe(subs_dict[substance]["wirkdauer_df"])
 
-    st.markdown(f"#### {subs_dict[substance]['comment']}")
+    st.markdown(f"###### {subs_dict[substance]['comment']}")
 
     st.markdown("---")
     col5, col6 = st.columns(2)
@@ -65,13 +65,13 @@ def main():
     var_text = subs_dict[substance]["Konsumform"]
 
     with col5:
-        st.markdown(f"### **Konsumform:**")
-        st.markdown(f"#### {var_text.capitalize()}")
+        st.markdown(f"#### **Konsumform:**")
+        st.markdown(f"###### {var_text.capitalize()}")
     var_text = subs_dict[substance]["Erscheinungsform"]
     with col6:
-        st.markdown(f"### **Erscheinungsform:**")
-        st.markdown(f"#### {var_text.capitalize()}")
-    # st.info(f"##### {var_text}")
+        st.markdown(f"#### **Erscheinungsform:**")
+        st.markdown(f"###### {var_text.capitalize()}")
+    # st.info(f"###### {var_text}")
 
 
 
@@ -80,11 +80,11 @@ def main():
     col_pos, col_neut, col_neg,  = st.columns(3)
 
     with col_pos:
-        st.markdown(f'#### {subs_dict[substance]["Wirkung"].split(";")[0]}')
+        st.markdown(f'###### {subs_dict[substance]["Wirkung"].split(";")[0]}')
     with col_neut:
-        st.markdown(f'#### {subs_dict[substance]["Wirkung"].split(";")[1]}')
+        st.markdown(f'###### {subs_dict[substance]["Wirkung"].split(";")[1]}')
     with col_neg:
-        st.markdown(f'#### {subs_dict[substance]["Wirkung"].split(";")[2]}')
+        st.markdown(f'###### {subs_dict[substance]["Wirkung"].split(";")[2]}')
 
     st.markdown("---")
     st.markdown("#### Kombinationen:")
@@ -92,11 +92,11 @@ def main():
     col_pos_, col_neut_, col_neg_,  = st.columns(3)
 
     with col_pos_:
-        st.markdown(f'#### {subs_dict[substance]["Kombinationen"].split(";")[0]}')
+        st.markdown(f'###### {subs_dict[substance]["Kombinationen"].split(";")[0]}')
     with col_neut_:
-        st.markdown(f'#### {subs_dict[substance]["Kombinationen"].split(";")[1]}')
+        st.markdown(f'###### {subs_dict[substance]["Kombinationen"].split(";")[1]}')
     with col_neg_:
-        st.markdown(f'#### {subs_dict[substance]["Kombinationen"].split(";")[2]}')
+        st.markdown(f'###### {subs_dict[substance]["Kombinationen"].split(";")[2]}')
 
     st.markdown("---")
     for var in list(subs_dict[substance].keys()):
@@ -104,7 +104,7 @@ def main():
             var_text = subs_dict[substance][var]
 
             st.markdown(f"#### {var}:")
-            st.markdown(f"##### {var_text}")
+            st.markdown(f"###### {var_text}")
 
 
     _,footcol, _ = st.columns(3)
