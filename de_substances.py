@@ -37,7 +37,7 @@ def main():
 
 
     with col1:
-        substance = st.selectbox("Wählt ein Substanz aus", drug_list)
+        substance = st.selectbox("Wählt eine Substanz aus", drug_list)
     with col2:
         st.markdown(f"# {subs_dict[substance]['Substanz']}")
 
