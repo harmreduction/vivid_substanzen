@@ -20,7 +20,7 @@ import en_app, es_app, de_app, de_substances, de_disclaimer
 
 PAGES = {
     "Substanzen": de_substances,
-    "MCDA Drugs": en_app,
+    # "MCDA Drugs": en_app,
     "Disclaimer": de_disclaimer,
 }
 
@@ -35,7 +35,7 @@ st.sidebar.markdown(title_alignment, unsafe_allow_html=True)
 
 with st.sidebar:
     selection = option_menu("", list(PAGES.keys()),
-    icons=['file-earmark-text','bar-chart-line', 'info-circle'], menu_icon="cast", default_index=0,
+    icons=['file-earmark-text', 'info-circle'], menu_icon="cast", default_index=0,
     styles={
         "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px"},
         "nav-link-selected": {"background-color": "ffffff"},
