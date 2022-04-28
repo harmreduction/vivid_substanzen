@@ -9,8 +9,8 @@ st.set_page_config(
      layout="wide", #centered wide
      initial_sidebar_state="expanded",
      menu_items={
-         'Get Help': 'https://github.com/franasal/MCDA-drug-harms',
-         'Report a bug': "https://github.com/franasal/MCDA-drug-harms",
+         'Get Help': 'https://vivid-hamburg.de/kontakt/',
+         'Report a bug': "https://github.com/ViewsOnDrugs/vivid_substanzen/tree/master",
          'About': "**App Author: [Francisco Arcila](https://twitter.com/franarsal/)** \n\nConcept design: Francisco Arcila."
      }
  )
