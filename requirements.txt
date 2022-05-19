@@ -4,3 +4,4 @@ tenacity==8.0.1
 openpyxl
 matplotlib
 streamlit_option_menu
+git+https://github.com/franasal/streamlit-analytics

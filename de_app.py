@@ -4,6 +4,7 @@ import os
 import json
 from pathlib import Path
 import matplotlib.pyplot as plt
+import streamlit_analytics
 
 lang="DE"
 
@@ -30,6 +31,7 @@ def load_data(lang):
 data_df, categories, lab_names=load_data(lang)
 
 def main():
+    streamlit_analytics.start_tracking()
     drug_list = sorted(data_df.index.tolist())
     categories_list = sorted(data_df.columns.tolist())
     intro_markdown = Path(f"{lang.lower()}_info.md").read_text()
@@ -86,6 +88,7 @@ def main():
 
     foot = f'#### {lab_names["__foot"]}  [<img src="https://pbs.twimg.com/media/FGE5sFPX0AY6TtV?format=png&name=small"  alt="drawing" width="50"/>](https://mybrainmychoice.de/) [<img src="https://vivid-hamburg.de/wp-content/uploads/2020/05/logo_lang.jpg" alt="drawing" width="200"/>](https://vivid-hamburg.de/)  [<img src="https://pbs.twimg.com/profile_images/1396102254487384065/ZjD8GvMw_400x400.png" alt="drawing" width="50"/>](https://twitter.com/ViewsOnDrugsBot/)'
     st.markdown(foot, unsafe_allow_html=True)
+    streamlit_analytics.stop_tracking(unsafe_password=st.secrets["analytics"])
 
 if __name__ == "__main__":
     main()
