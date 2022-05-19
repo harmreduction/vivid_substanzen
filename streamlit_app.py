@@ -16,7 +16,7 @@ st.set_page_config(
  )
 
 #app.py
-import en_app, es_app, de_app, de_substances, de_disclaimer
+import de_substances, de_disclaimer
 
 PAGES = {
     "Substanzen": de_substances,
