@@ -1,8 +1,8 @@
 {
-  "Psilos": {
-    "Substanz": "Psilos",
-    "Beschreibung": "Pilze, auch genannt Magic Mushrooms, sind ein nat\u00fcrlich vorkommendes Psychedelikum. Sie enthalten die Wirkstoffe Psilocybin und Psilocin.",
-    "Erscheinungsform": "frische oder getrocknete Pilze",
+  "Pilze": {
+    "Substanz": "Pilze",
+    "Beschreibung": "Pilze, auch genannt Magic Mushrooms, sind ein natürlich vorkommendes Psychedelikum. Sie enthalten die Wirkstoffe Psilocybin und Psilocin.",
+    "Erscheinungsform": "Frische oder getrocknete Pilze",
     "Konsumform": "Oral :lips:",
     "Dosierung": {
       "Oral": {
@@ -10,24 +10,24 @@
         "Mittlere Dosis": "1-2,5 g",
         "Hohe Dosis": "2,5-5 g"
       },
-      "comment": "(Psilocybe Cubensis, trocken) H\u00f6here Dosierungen k\u00f6nnen die Wirk- und Peakdauer verl\u00e4ngern. Ein gef\u00fcllter Magen kann den Wirkungseintritt merklich verz\u00f6gern, sowie die Intensit\u00e4t verringern. Bei frischen Pilze erh\u00f6ht sich die Dosis um das Zehnfache. Der Wirkstoffgehalt der Pilze kann abh\u00e4ngig von Art, Herstellung und Lagerung stark variieren."
+      "comment": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Ein gefüllter Magen kann den Wirkungseintritt merklich verzögern sowie die Intensität verringern. Bei frischen Pilzen erhöht sich die Dosis um das Zehnfache. Der Wirkstoffgehalt der Pilze kann abhängig von Art, Herstellung und Lagerung stark variieren."
     },
     "Wirkdauer": {
       "Oral": {
         "Wirkungseintritt": "20-60 Minuten",
-        "Peakeintritt/Peakdauer": "Nach 1-2 Stunden / f\u00fcr 2-3 Stunden",
+        "Peakeintritt/Peakdauer": "1-2 Stunden / 2–3 Stunden",
         "Wirkdauer": "4-7 Stunden"
       }
     },
-    "Wirkung": ":white_check_mark: Positiv: Stimmungshebend, euphorisch, morphen von Formen, steigende Farbintensit\u00e4t, geometrische Muster, erh\u00f6hte Kreativit\u00e4t und Emotionalit\u00e4t, spirituelle Zust\u00e4nde; :white_large_square: Neutral: Stimulierend, Erh\u00f6hung der K\u00f6rpertemperatur und des Pulses, sprunghafte Emotionen und Gedanken, verminderter Appetit; :small_red_triangle: Negativ: \u00dcbelkeit, schlafunterdr\u00fcckend, Einschr\u00e4nkung des Kurzzeitged\u00e4chtnisses, abnehmende Konzentration, Verwirrung bis hin zu Paranoia, Ich-Aufl\u00f6sung (ego-death)",
-    "Toleranz": "Nach einem Tag baut sich eine Toleranz auf, die ca. eine Woche anh\u00e4lt. Eine Kreuztoleranz mit den meisten anderen psychedelischen Substanzen ist vorhanden.",
-    "Kombinationen": ":arrow_up_small: Verst\u00e4rkt: Cannabis, Ketamin, Lachgas, MDMA, weitere Psychedelika, MAO-Hemmer; :arrow_down_small: Verringert: Alkohol, Benzodiazepine, GHB, Serotonin-Wiederaufnahmehemmer; :warning: Gef\u00e4hrlich: Tramadol",
-    "VIVID Safer-Use Tipps": "Beachtung von Set und Setting f\u00fcr einen angenehmen Trip, Wasser trinken, Freund*innen \u00fcber konsumierte Menge informieren, Anwesenheit eines/einer n\u00fcchternen Tripsitter*in. Nehme dir Zeit deinen Trip zu verarbeiten und die Erfahrungen zu integrieren, bevor du deinen n\u00e4chsten Trip startest."
+    "Wirkung": ":white_check_mark: Positiv: Stimmungshebend, euphorisierend, gesteigerte Sinneswahrnehmung, Visuals (Morphen von Formen, erhöhte Farbintensität, geometrische Muster), erhöhte Kreativität und Emotionalität, spirituelle Zustände; :white_large_square: Neutral: Stimulierend, sprunghafte Emotionen und Gedanken, verminderter Appetit, Ich-Auflösung (ego-death); :small_red_triangle: Negativ: Übelkeit, Schlaflosigkeit, Einschränkung des Kurzzeitgedächtnisses, abnehmende Konzentration, Verwirrung bis hin zu Paranoia",
+    "Toleranz": "Nach einem Tag baut sich eine Toleranz auf, die ca. eine Woche anhält. Eine Kreuztoleranz mit den meisten anderen psychedelischen Substanzen ist vorhanden.",
+    "Kombinationen": ":arrow_up_small: Verstärkt: Cannabis, DXM, Ketamin, Lachgas, MDMA, MAO-Hemmer (z. B. einige Antidepressiva), weitere Psychedelika; :arrow_down_small: Verringert: Alkohol, Benzodiazepine, GHB, Serotonin-Wiederaufnahmehemmer; :warning: Gefährlich: Tramadol",
+    "VIVID Safer-Use Tipps": "Beachtung von Set und Setting für einen angenehmen Trip, Freund*innen über konsumierte Menge informieren, Anwesenheit einer nüchternen Bezugsperson. Nimm dir Zeit, deinen Trip zu verarbeiten und die Erfahrungen zu integrieren, bevor du das nächste Mal Psychedelika nimmst."
   },
   "2C-B": {
     "Substanz": "2C-B",
-    "Beschreibung": "2C-B ist ein Psychedelikum aus der Klasse der Phenylethylamine, zu der auch das nat\u00fcrlich vorkommende Meskalin geh\u00f6rt.",
-    "Erscheinungsform": "wei\u00dfes/beiges/graues Pulver oder in Pillenform",
+    "Beschreibung": "2C-B ist ein Psychedelikum aus der Klasse der Phenylethylamine, zu der auch das natürlich vorkommende Meskalin gehört.",
+    "Erscheinungsform": "Weißes / beiges / graues Pulver oder in Pillenform",
     "Konsumform": "Oral :lips: oder nasal :pig_nose:",
     "Dosierung": {
       "Oral": {
@@ -36,11 +36,11 @@
         "Hohe Dosis": "Ab 25 mg"
       },
       "Nasal": {
-        "leichte Dosis": "5 mg",
+        "leichte Dosis": "1-5 mg",
         "Mittlere Dosis": "5-12 mg",
         "Hohe Dosis": "Ab 12 mg"
       },
-      "comment": "H\u00f6here Dosierungen k\u00f6nnen die Wirk- und Peakdauer verl\u00e4ngern. Ein gef\u00fcllter Magen kann den Wirkungseintritt merklich verz\u00f6gern, sowie die Intensit\u00e4t verringern."
+      "comment": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Ein gefüllter Magen kann den Wirkungseintritt merklich verzögern, sowie die Intensität verringern."
     },
     "Wirkdauer": {
       "Oral": {
@@ -51,31 +51,31 @@
       "Nasal": {
         "Wirkungseintritt": "1-10 Minuten",
         "Peak": "1-2 Stunden",
-        "Wirkdauer": "2- 4 Stunden"
+        "Wirkdauer": "2-4 Stunden"
       }
     },
-    "Wirkung": ":white_check_mark: Positiv: Stimmungshebend, euphorisch, morphen von Formen, steigende Farbintensit\u00e4t, geometrische Muster, Erh\u00f6hung der Libido, Erh\u00f6hung der Kreativit\u00e4t und Emotionalit\u00e4t; :white_large_square: Neutral: Stimulierend, verminderter Appetit, Erh\u00f6hung der K\u00f6rpertemperatur und des Pulses; :small_red_triangle: Negativ: \u00dcbelkeit, Muskelverspannung, abnehmende Konzentration, Verwirrung bis hin zu Paranoia, Ich-Aufl\u00f6sung (ego-death)",
-    "Toleranz": "Im Vergleich zu anderen Psychedelischen Drogen baut sich die Toleranz von 2C-B nur langsam \u00fcber 1-3 Tage auf, ist jedoch nach 14 Tagen wieder komplett abgebaut. Es herrscht eine Kreuztoleranz zu anderen psychedelischen Drogen, welche beachtet werden sollte.",
-    "Kombinationen": ":arrow_up_small: Verst\u00e4rkt: Cannabis, Dissoziativa, MDMA, weitere Psychedelika; :arrow_down_small: Verringert: Alkohol, Benzodiazepine, GHB, Serotonin-Wiederaufnahmehemmer; :warning: Gef\u00e4hrlich: Tramadol, MAO-Hemmer (z.B einige Antidepressiva)",
-    "VIVID Safer-Use Tipps": "Beachtung von Set und Setting f\u00fcr einen angenehmen Trip, genaues Dosieren mit einer passenden Waage, eigenes Ziehr\u00f6hrchen verwenden, saubere Ziehfl\u00e4che verwenden, Wasser trinken, Freund*innen \u00fcber konsumierte Menge informieren, Anwesenheit eines/einer n\u00fcchternen Tripsitter*in."
+    "Wirkung": ":white_check_mark: Positiv: Stimmungshebend, euphorisierend, gesteigerte Sinneswahrnehmung, Visuals (Morphen von Formen, erhöhte Farbintensität, geometrische Muster), Steigerung der Libido, Erhöhung der Kreativität und Emotionalität; :white_large_square: Neutral: Stimulierend, verminderter Appetit, Erhöhung der Körpertemperatur und des Pulses, Ich-Auflösung (ego-death); :small_red_triangle: Negativ: Übelkeit, Muskelverspannung, abnehmende Konzentration, Verwirrung bis hin zu Paranoia",
+    "Toleranz": "Im Vergleich zu anderen psychedelischen Drogen baut sich die Toleranz von 2C-B nur langsam über 1-3 Tage auf, ist jedoch nach 14 Tagen wieder komplett abgebaut.\nEs herrscht eine Kreuztoleranz zu anderen psychedelischen Drogen, welche beachtet werden sollte.",
+    "Kombinationen": ":arrow_up_small: Verstärkt: annabis, DXM, Ketamin, Lachgas, MDMA, weitere Psychedelika; :arrow_down_small: Verringert: Alkohol, Benzodiazepine, GHB, Serotonin-Wiederaufnahmehemmer; :warning: Gefährlich: Tramadol, MAO-Hemmer (z.B einige Antidepressiva)",
+    "VIVID Safer-Use Tipps": "Aufgrund des engen Dosierungsbereichs und des schnellen Wirkungseintritts ist das Risiko einer Überdosierung bei nasalem Konsum wesentlich höher. Das starke Brennen in der Nase kann zudem den Trip beeinflussen. Beachtung von Set und Setting für einen angenehmen Trip, genaues Dosieren mit einer passenden Waage, Kristalle gründlich zerkleinern, eigenes Ziehröhrchen sowie saubere Ziehfläche verwenden, Freund*innen über konsumierte Menge informieren, Anwesenheit einer nüchternen Bezugsperson."
   },
   "Amphetamin": {
     "Substanz": "Amphetamin",
-    "Beschreibung": "Speed/Pepp, ist die umgangssprachliche Bezeichnung f\u00fcr den Upper Amphetamin.",
-    "Erscheinungsform": "wei\u00dfes/beiges Pulver, mehlig oder feucht als Paste",
+    "Beschreibung": "Speed / Pepp ist die umgangssprachliche Bezeichnung für den Upper Amphetamin.",
+    "Erscheinungsform": "Weißes/beiges Pulver, mehlig oder feucht als Paste",
     "Konsumform": "oral :lips: oder nasal :pig_nose:",
     "Dosierung": {
       "Oral": {
-        "leichte Dosis": "10-30 mg",
-        "Mittlere Dosis": "30-50 mg",
-        "Hohe Dosis": "Ab 50 mg"
+        "leichte Dosis": "5-10 mg",
+        "Mittlere Dosis": "10-15 mg",
+        "Hohe Dosis": "Ab 25-50 mg"
       },
       "Nasal": {
         "leichte Dosis": "5 -20 mg",
         "Mittlere Dosis": "20-40 mg",
         "Hohe Dosis": "Ab 40 mg"
       },
-      "comment": "Speed hat einen stark schwankenden Reinheitsgehalt an Amphetamin und wird h\u00e4ufig mit verschiedenen Stoffen gestreckt. Vorsichtig andosieren!"
+      "comment": "Speed hat einen stark schwankenden Reinheitsgehalt und wird häufig mit verschiedenen Stoffen (überwiegend Koffein) gestreckt. Vorsichtig und niedrig dosiert antesten!"
     },
     "Wirkdauer": {
       "Oral": {
@@ -89,63 +89,63 @@
         "Wirkdauer": "6- 8 Stunden"
       }
     },
-    "Wirkung": ":white_check_mark: Positiv: Stimulierend, euphorisches K\u00f6rpergef\u00fchl; :white_large_square: Neutral: Fokussierend, verminderter Appetit, schlafunterdr\u00fcckend, Erh\u00f6hung der K\u00f6rpertemperatur und Puls; :small_red_triangle: Negativ: Herzrasen, \u00dcbelkeit, Schwindel, Dehydrierung, Sch\u00e4digung der Nasenschleimhaut",
-    "Toleranz": "Regelm\u00e4\u00dfiger Amphetaminkonsum f\u00fchrt zum Aufbau einer Toleranz. Diese ist nach 1-2 Wochen vollst\u00e4ndig abgebaut. Es herrscht eine Kreuztoleranz zu anderen Dopamin-aussch\u00fcttenden Stimulanzien (z. B. Kokain), welche beachtet werden sollte.",
-    "Kombinationen": ":arrow_up_small: Verst\u00e4rkt: MDMA, Lachgas; :arrow_down_small: Verringert: Alkohol, Benzodiazepine, GHB, Psychedelika, Dissoziativa, Opioide; :warning: Gef\u00e4hrlich: MAO-Hemmer (z.B einige Antidepressiva), Tramadol",
-    "VIVID Safer-Use Tipps": "Eigenes Ziehr\u00f6hrchen verwenden, saubere Ziehfl\u00e4che verwenden, Stoff trocknen und gr\u00fcndlich zerkleinern, Wasser trinken, Tanzpausen einlegen."
+    "Wirkung": ":white_check_mark: Positiv: Stimulierend, euphorisches Körpergefühl; :white_large_square: Neutral: Fokussierend, verminderter Appetit, Schlaflosigkeit, Erhöhung der Körpertemperatur und des Pulses; :small_red_triangle: Negativ: Herzrasen, Übelkeit, Schwindel, Dehydrierung, Schädigung der Nasenschleimhaut",
+    "Toleranz": "Regelmäßiger Amphetaminkonsum führt zum Aufbau einer Toleranz. Diese ist nach 1 – 2 Wochen vollständig abgebaut. Es herrscht eine Kreuztoleranz zu anderen Stimulanzien, die eine Wirkung auf das Dopamin-System haben (z.B. Kokain).",
+    "Kombinationen": ":arrow_up_small: Verstärkt: MDMA, Lachgas; :arrow_down_small: Verringert: Alkohol, Benzodiazepine, GHB, Psychedelika, Dissoziativa, Opioide; :warning: Gefährlich: Hoher Alkoholkonsum (Wahrnehmung der Trunkenheit durch Amphetamin unterdrückt), DXM, MAO-Hemmer (z. B. einige Antidepressiva), Tramadol",
+    "VIVID Safer-Use Tipps": "Eigenes Ziehröhrchen sowie saubere Ziehfläche verwenden, Stoff trocknen und gründlich zerkleinern, ausreichend Wasser trinken, Tanzpausen einlegen."
   },
   "GHB": {
-    "Substanz": "GHB",
-    "Beschreibung": "GBL/GHB sind Downer, wobei GBL prim\u00e4r im Partysetting konsumiert wird und dabei im K\u00f6rper zu GHB umgesetzt wird (Prodrug). GHB findet auch im medizinischen Bereich Anwendung.",
-    "Erscheinungsform": "farblose Fl\u00fcssigkeit mit starken L\u00f6sungsmittelgeschmack und -geruch",
+    "Substanz": "GBL/GHB",
+    "Beschreibung": "GBL und GHB sind Downer, wobei GBL meistens im Partysetting konsumiert wird und dabei im Körper zu GHB verstoffwechselt wird.",
+    "Erscheinungsform": "Farblose Flüssigkeit mit starkem Lösungsmittelgeschmack und -geruch",
     "Konsumform": "Oral :lips:",
     "Dosierung": {
       "GHB Oral": {
+        "leichte Dosis": "0.3-0.9 mL",
+        "Mittlere Dosis": "0.9-1.5 mL",
+        "Hohe Dosis": "1.5-2 mL"
+      },
+      "GBL Oral": {
         "leichte Dosis": "0.3-1 mL",
         "Mittlere Dosis": "1-2.5 mL",
         "Hohe Dosis": "2.5-4 mL"
       },
-      "GBL Oral": {
-        "leichte Dosis": "0.3-0.9 mL",
-        "Mittlere Dosis": "0.9-1.5 mL",
-        "Hohe Dosis": "1.5-3 mL"
-      },
-      "comment": "H\u00f6here Dosierungen k\u00f6nnen die Wirkdauer verl\u00e4ngern."
+      "comment": "Höhere Dosierungen können die Wirkdauer verlängern."
     },
     "Wirkdauer": {
       "GBH Oral": {
         "Wirkungseintritt": "10-20 Minuten",
         "Peak": "45-90 Minuten",
-        "Wirkdauer": "2 -4 Stunden"
+        "Wirkdauer": "2-4 Stunden"
       },
       "GBL Oral": {
         "Wirkungseintritt": "5- 15 Minuten",
         "Peak": "30-45 Minuten",
-        "Wirkdauer": "1- 3 Stunden"
+        "Wirkdauer": "1-3 Stunden"
       }
     },
-    "Wirkung": ":white_check_mark: Positiv: In niedrigen Dosen stimulierend, Enthemmend, Angstl\u00f6send, k\u00f6rperliche Entspannung, Euphorie, Erh\u00f6hung der Libido; :white_large_square: Neutral: Schwindelgef\u00fchle; :small_red_triangle: Negativ: in h\u00f6heren Dosen stark sedierend bis zur Bewusstlosigkeit und Gefahr einer Atemdepresion, \u00dcbelkeit, Magenschmerzen, Ged\u00e4chtnisverlust",
-    "Toleranz": "GHB-Konsum f\u00fchrt zum Aufbau einer Toleranz. Diese ist nach 1-2 Wochen vollst\u00e4ndig abgebaut. Regelm\u00e4\u00dfiger GHB-Konsum kann zu k\u00f6rperliche Abh\u00e4ngigkeit f\u00fchren. Entzug nur unter \u00e4rztlicher Betreuung.",
-    "Kombinationen": ":arrow_up_small: Verst\u00e4rkt: Cannabis; :arrow_down_small: Verringert: Psychedelika; :warning: Gef\u00e4hrlich: Alkohol, Opioide, Benzodiazepine, Dissoziativa",
-    "VIVID Safer-Use Tipps": "Nie per Augenma\u00df dosieren, Immer Spritze oder Pipetten mit genauer Ma\u00dfeinheit verwenden, Nachdosieren erst nach mindestens 2 Stunden. Auch ohne Wirkung ist noch GHB im K\u00f6rper und kann zur \u00dcberdosierung f\u00fchren."
+    "Wirkung": ":white_check_mark: Positiv: Enthemmend, Angstlösend, körperliche Entspannung, Euphorie, Steigerung der Libido; :white_large_square: Neutral: In niedrigen Dosen stimulierend; :small_red_triangle: Negativ: In höheren Dosen stark sedierend bis zur Bewusstlosigkeit, Verschiebung der persönlichen Grenzen, Gefahr einer Atemdepression, Übelkeit, Magenschmerzen, Gedächtnisverlust, Schwindel",
+    "Toleranz": "Regelmäßiger Konsum führt zum Aufbau einer Toleranz. Diese ist nach 1 – 2 Wochen vollständig abgebaut. GBL und GHB Konsum kann zu körperlicher Abhängigkeit führen. Entzug nur unter ärztlicher Betreuung - plötzliches Absetzen kann ähnlich wie bei Alkoholabhängigkeit lebensgefährlich sein.",
+    "Kombinationen": ":arrow_up_small: Verstärkt: Cannabis; :arrow_down_small: Verringert: Psychedelika; :warning: Gefährlich: Alkohol, Opioide, Benzodiazepine, Dissoziativa",
+    "VIVID Safer-Use Tipps": "Nie per Augenmaß dosieren, immer Spritze oder Pipetten mit genauer Maßeinheit verwenden, Nachdosieren erst nach 60-90 Minuten (Timer stellen). Auch ohne gefühlte Wirkung kann noch GHB im Körper sein und bei weiterem Konsum zur Überdosierung führen. Um Zähne und Rachen zu schützen, sollte GBL nur stark verdünnt konsumiert werden."
   },
   "Ketamin": {
     "Substanz": "Ketamin",
     "Beschreibung": "Ketamin ist ein dissoziatives Narkotikum, welches sowohl in der Tier- als auch Humanmedizin verwendet wird.",
-    "Erscheinungsform": "hellwei\u00dfes Pulver, leicht glitzernd durch deutlich kristalline Struktur, geruchlos, leicht s\u00e4uerlicher Geschmack.",
-    "Konsumform": "Nasal, oral :lips: oder intraven\u00f6s :syringe:",
+    "Erscheinungsform": "Weißes Pulver oder Kristalle in verschiedenen Formen, geruchlos, leicht säuerlicher Geschmack.",
+    "Konsumform": "Nasal:pig_nose: oder intravenös :syringe:, seltener auch oral :lips:",
     "Dosierung": {
       "Oral": {
-        "leichte Dosis": "100-200 mg",
-        "Mittlere Dosis": "200-400 mg",
-        "Hohe Dosis": "Ab 400 mg"
+        "leichte Dosis": "50-100 mg",
+        "Mittlere Dosis": "100-300 mg",
+        "Hohe Dosis": "Ab 300 mg"
       },
       "Nasal": {
-        "leichte Dosis": "30-50 mg",
-        "Mittlere Dosis": "50-80 mg",
-        "Hohe Dosis": "Ab 80 mg"
+        "leichte Dosis": "10-30 mg",
+        "Mittlere Dosis": "30-75 mg",
+        "Hohe Dosis": "Ab 75 mg"
       },
-      "comment": "H\u00f6here Dosierungen k\u00f6nnen die Wirkdauer verl\u00e4ngern und das dissoziative Rauscherleben intensivieren (K-Hole). Eine zu hohe Dosierung kann zu einer bet\u00e4ubende Wirkung f\u00fchren, die das dissoziative Rauscherleben \u00fcberlagert. Oraler Konsum kann zu Magen-Darm Problem f\u00fchren."
+      "comment": "Höhere Dosierungen können die Wirkdauer verlängern, das dissoziative Rauscherleben intensivieren und bis zum Verlust des Bewusstseins führen. Ketamin kommt in zwei Isomeren (S-Ketamin, R-Ketamin) vor, die unterschiedlich stark und lang wirken. Diese Isomere können getrennt oder als Mischung (Racemat) vorliegen. Vorsichtig und niedrig dosiert antesten."
     },
     "Wirkdauer": {
       "Oral": {
@@ -159,23 +159,23 @@
         "Wirkdauer": "1,5- 2 Stunden"
       }
     },
-    "Wirkung": ":white_check_mark: Positiv: Leichtigkeit, Entspannung, Stimmungsaufhellung; :white_large_square: Neutral: Fragmentierte und intensivierte Sinneswahrnehmung, verringertes K\u00f6rpergef\u00fchl und Aufmerksamkeit, eingeschr\u00e4nkte Koordination; :small_red_triangle: Negativ: \u00dcbelkeit, Erbrechen, Orientierungslosigkeit, Unf\u00e4higkeit zu Bewegung oder Kommunikation, Bewusstlosigkeit",
-    "Toleranz": "Wenige Stunden nach Erstkonsum beginnt eine langsame Toleranzbildung. Diese ist nach 1-2 Wochen vollst\u00e4ndig abgebaut.",
-    "Kombinationen": "Ketamin selber wirkt nicht atemdepressiv, kann aber in Kombination mit anderen sedierenden Substanzen wie Alkohol, GHB/GBL, Opiaten/Opioiden, Benzodiazepinen und Barbiturate die Atmung gef\u00e4hrlich verringern!; :arrow_up_small: Verst\u00e4rkt: Cannabis, Lachgas, MDMA, Psychedelika, Kokain; :arrow_down_small: Verringert: Amphetamin; :warning: Gef\u00e4hrlich: Alkohol, GHB/GBL, Opiate/Opioide, Benzodiazepine, Barbiturate",
-    "VIVID Safer-Use Tipps": "Eigenes Ziehr\u00f6hrchen verwenden, saubere Ziehfl\u00e4che verwenden und gr\u00fcndlich zerkleinern; Durch die bet\u00e4ubende Wirkung kann es unbemerkt zu Verletzungen kommen; Bei h\u00f6herer Dosierung sollte auf freie Atemwege geachtet werden (ggf. stabile Seitenlage), sowie das Trinken von Wasser vermieden werden, um Verschluckungsgefahr zu unterbinden. Regelm\u00e4\u00dfiger hoher Konsum kann zu Sch\u00e4den an der Blase f\u00fchren."
+    "Wirkung": ":white_check_mark: Positiv: Leichtigkeit, Entspannung, Stimmungsaufhellung; :white_large_square: Neutral: Fragmentierte und intensivierte Sinneswahrnehmung, verringertes Körpergefühl und verringerte Aufmerksamkeit, eingeschränkte Koordination; :small_red_triangle: Negativ: Übelkeit, Erbrechen, Orientierungslosigkeit, Unfähigkeit sich zu bewegen oder sich mitzuteilen, Bewusstlosigkeit",
+    "Toleranz": "Wenige Stunden nach Erstkonsum beginnt eine langsame Toleranzbildung. Diese ist nach 1 – 2 Wochen vollständig abgebaut.",
+    "Kombinationen": ":arrow_up_small: Verstärkt: Cannabis, Lachgas, MDMA, Psychedelika, Kokain; :arrow_down_small: Verringert: Amphetamin; :warning: Gefährlich: Alkohol, GHB/GBL, Opiate/Opioide, Benzodiazepine, Barbiturate; Ketamin selber wirkt nicht atemdepressiv, kann aber in Kombination mit anderen sedierenden Substanzen (siehe gefährlich) die Atmung gefährlich verringern!",
+    "VIVID Safer-Use Tipps": "Eigenes Ziehröhrchen sowie saubere Ziehfläche verwenden und Kristalle gründlich zerkleinern. Durch die betäubende Wirkung kann es unbemerkt zu Verletzungen kommen. Bei höherer Dosierung und speziell im K-Hole sollte auf freie Atemwege geachtet (ggf. stabile Seitenlage) sowie das Trinken vermieden werden, um Verschlucken zu verringern. Regelmäßiger hoher Konsum kann zu Schäden an der Blase führen."
   },
   "Kokain": {
     "Substanz": "Kokain",
     "Beschreibung": "Kokain ist ein aus dem Cocastrauch gewonnener Upper.",
-    "Erscheinungsform": "wei\u00dfes Pulver.",
-    "Konsumform": "Nasal :pig_nose:, intraven\u00f6s :syringe: oder geraucht als Crack :fog: ",
+    "Erscheinungsform": "Weißes Pulver.",
+    "Konsumform": "Nasal :pig_nose:, intravenös :syringe: oder 'Free Base' geraucht als Crack :fog: ",
     "Dosierung": {
       "Nasal": {
         "Leichte Dosis": "10-30 mg",
         "Mittlere Dosis": "30-60 mg",
         "Hohe Dosis": "Ab 60 mg"
       },
-      "comment": "Kokain hat einen stark schwankenden Reinheitsgehalt und wird h\u00e4ufig mit verschiedenen Stoffen gestreckt. Vorsichtig andosieren!"
+      "comment": "Kokain hat einen stark schwankenden Reinheitsgehalt und wird häufig mit verschiedenen Stoffen gestreckt. Vorsichtig und niedrig dosiert antesten!"
     },
     "Wirkdauer": {
       "Nasal": {
@@ -184,64 +184,69 @@
         "Wirkdauer": "30-60 Minuten"
       }
     },
-    "Wirkung": ":white_check_mark: Positiv: Stimulierend, euphorisierend, gesteigertes Selbstvertrauen, Gef\u00fchl der St\u00e4rke, Ausgelassenheit; :white_large_square: Neutral: Beschleunigter Stoffwechsel, anstieg der Atemfrequenz, verminderter Appetit, schlaf-unterdr\u00fcckend, Erh\u00f6hung der K\u00f6rpertemperatur und Puls, vermindertes Schmerzempfinden, erh\u00f6hte Risikobereitschaft, gesteigerte Libido; :small_red_triangle: Negativ: Belastung des Herz-Kreislaufsystems, erh\u00f6htes Risiko eines Herzinfarktes, Angst, innere Unruhe, gesteigerte Aggressivit\u00e4t, \u00dcbelkeit, leichte Kr\u00e4mpfe und Zittern, Sch\u00e4digung der Nasenschleimhaut",
-    "Toleranz": "Regelm\u00e4\u00dfiger Kokainkonsum f\u00fchrt zum Aufbau einer Toleranz. Diese ist nach 1-2 Wochen vollst\u00e4ndig abgebaut. Es herrscht eine Kreuztoleranz zu anderen Dopamin-aussch\u00fcttenden Stimulanzien (z. B. Amphetamin), welche beachtet werden sollte.",
-    "Kombinationen": ":arrow_up_small: Verst\u00e4rkt: Lachgas; :arrow_down_small: Verringert: Benzodiazepine, Alkohol, MDMA; :warning: Gef\u00e4hrlich: MAO-Hemmer, Opioide, Betablocker , hoher Alkoholkonsum (Wahrnehmung der Trunkenheit unterdr\u00fcckt)",
-    "VIVID Safer-Use Tipps": "Eigenes Ziehr\u00f6hrchen verwenden, saubere Ziehfl\u00e4che verwenden, gr\u00fcndlich zerkleinern, Wasser trinken, Tanzpausen einlegen."
+    "Wirkung": ":white_check_mark: Positiv: Stimulierend, euphorisierend, gesteigertes Selbstvertrauen, Gefühl von Stärke, Ausgelassenheit; :white_large_square: Neutral: Beschleunigter Stoffwechsel, Anstieg der Atemfrequenz, verminderter Appetit, Schlaflosigkeit, Erhöhung der Körpertemperatur und Puls, vermindertes Schmerzempfinden, erhöhte Risikobereitschaft, Steigerung der Libido; :small_red_triangle: Negativ: Belastung des Herz-Kreislaufsystems, erhöhtes Risiko eines Herzinfarktes, Angst, innere Unruhe, gesteigerte Aggressivität, Übelkeit, leichte Krämpfe und Zittern, Schädigung der Nasenschleimhaut",
+    "Toleranz": "Regelmäßiger Kokainkonsum führt zum Aufbau einer Toleranz. Diese ist nach 1 – 2 Wochen vollständig abgebaut. Es herrscht eine Kreuztoleranz zu anderen Stimulanzien, die eine Wirkung auf das Dopamin-System haben (z.B. Amphetamin).",
+    "Kombinationen": ":arrow_up_small: Verstärkt: Lachgas; :arrow_down_small: Verringert: Benzodiazepine, Alkohol, MDMA; :warning: Gefährlich: Hoher Alkoholkonsum (Wahrnehmung der Trunkenheit durch Kokain unterdrückt) Betablocker, DXM, MAO-Hemmer (z. B. einige Antidepressiva), Opioide, Tramadol",
+    "VIVID Safer-Use Tipps": "Eigenes Ziehröhrchen sowie saubere Ziehfläche verwenden, Substanz gründlich zerkleinern, ausreichend Wasser trinken, Tanzpausen einlegen."
   },
   "LSD": {
     "Substanz": "LSD",
     "Beschreibung": "LSD ist ein Psychedelikum aus der Klasse der Lysergamide und auch bekannt unter dem Namen Acid.",
-    "Erscheinungsform": "In L\u00f6sungsmittel oder auf Papierst\u00fccke, genannt Blotter oder Pappen, aufgetragen.",
+    "Erscheinungsform": "In Lösungsmittel, auf Papierstücken - genannt Blotter oder Pappen - und in Pillen (Micros).",
     "Konsumform": "Oral :lips: oder sublingual :tongue:",
     "Dosierung": {
       "Oral und Sublingual": {
-        "leichte Dosis": "25-75 \u00b5g",
-        "Mittlere Dosis": "75-150 \u00b5g",
-        "Hohe Dosis": "Ab 150 \u00b5g"
+        "leichte Dosis": "25-75 µg",
+        "Mittlere Dosis": "75-150 µg",
+        "Hohe Dosis": "Ab 150 µg"
       },
-      "comment": "H\u00f6here Dosierungen k\u00f6nnen die Wirk- und Peakdauer verl\u00e4ngern. Ein gef\u00fcllter Magen kann den Wirkungseintritt merklich verz\u00f6gern, sowie die Intensit\u00e4t verringern."
+      "comment": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Ein gefüllter Magen kann den Wirkungseintritt merklich verzögern, sowie die Intensität verringern."
     },
     "Wirkdauer": {
       "Oral": {
         "Wirkungseintritt": "20-60 Minuten",
-        "Peakeintritt/Peakdauer": "Nach 1-2 Stunden / f\u00fcr 2-4 Stunden",
+        "Peakeintritt/Peakdauer": "1-2 Stunden / 2-4 Stunden",
         "Wirkdauer": "8-12 Stunden"
       }
     },
-    "Wirkung": ":white_check_mark: Positiv: Stimmungshebend, euphorisch, morphen von Formen, steigende Farbintensit\u00e4t, geometrische Muster, erh\u00f6hte Kreativit\u00e4t und Emotionalit\u00e4t, spirituelle Zust\u00e4nde; :white_large_square: Neutral: Stimulierend, Erh\u00f6hung der K\u00f6rpertemperatur und des Pulses, sprunghafte Emotionen und Gedanken, verminderter Appetit;:small_red_triangle: Negativ: \u00dcbelkeit, schlafunterdr\u00fcckend, Einschr\u00e4nkung des Kurzzeitged\u00e4chtnisses, abnehmende Konzentration, Verwirrung bis hin zu Paranoia, Ich-Aufl\u00f6sung (ego-death)",
-    "Toleranz": "Nach einem Tag baut sich eine Toleranz auf, die ca. eine Woche anh\u00e4lt. Eine Kreuztoleranz mit den meisten anderen psychedelischen Substanzen ist vorhanden.",
-    "Kombinationen": ":arrow_up_small: Verst\u00e4rkt: Cannabis, Ketamin, Lachgas, MDMA, weitere Psychedelika;:arrow_down_small: Verringert: Alkohol, Benzodiazepine, GHB, Serotonin-Wiederaufnahmehemmer, MAO-Hemmer; :warning: Gef\u00e4hrlich: Tramadol",
-    "VIVID Safer-Use Tipps": "Beachtung von Set und Setting f\u00fcr einen angenehmen Trip, Wasser trinken, Freund*innen \u00fcber konsumierte Menge informieren, Anwesenheit eines/einer n\u00fcchternen Tripsitter*in. Nehme dir Zeit deinen Trip zu verarbeiten und die Erfahrungen zu integrieren, bevor du deinen n\u00e4chsten Trip startest."
+    "Wirkung": ":white_check_mark: Positiv: Stimmungshebend, euphorisierend, gesteigerte Sinneswahrnehmung, Visuals (Morphen von Formen, erhöhte Farbintensität, geometrische Muster), erhöhte Kreativität und Emotionalität, spirituelle Zustände; :white_large_square: Neutral: Stimulierend, Erhöhung der Körpertemperatur und des Pulses, sprunghafte Emotionen und Gedanken, verminderter Appetit, Ich-Auflösung (ego-death);:small_red_triangle: Negativ: Übelkeit, Schlaflosigkeit, Einschränkung des Kurzzeitgedächtnisses, abnehmende Konzentration, Verwirrung bis hin zu Paranoia.",
+    "Toleranz": "Nach einem Tag baut sich eine Toleranz auf, die ca. eine Woche anhält. Eine Kreuztoleranz mit den meisten anderen psychedelischen Substanzen ist vorhanden.",
+    "Kombinationen": ":arrow_up_small: Verstärkt: Cannabis, Ketamin, Lachgas, MDMA, weitere Psychedelika;:arrow_down_small: Verringert: Alkohol, Benzodiazepine, GBL und GHB, MAO-Hemmer, Serotonin-Wiederaufnahmehemmer; :warning: Gefährlich: Tramadol",
+    "VIVID Safer-Use Tipps": "Beachtung von Set und Setting für einen angenehmen Trip, Freund*innen über konsumierte Menge informieren, Anwesenheit einer nüchternen Bezugsperson. Nehme dir Zeit, deinen Trip zu verarbeiten und die Erfahrungen zu integrieren, bevor du das nächste Mal Psychedelika nimmst."
   },
   "MDMA": {
     "Substanz": "MDMA",
-    "Beschreibung": "MDMA ist ein Empathogen, welches das Gef\u00fchl von Verbundenheit, die eigene Offenheit und die Empathie steigert. Es ist vor allem unter den Namen Ecstasy bekannt ist.",
-    "Erscheinungsform": "Als Kristalle oder in Pillenform (Ecstasy)",
+    "Beschreibung": "das ein Gefühl von Verbundenheit erzeugt sowie die eigene Offenheit und Empathie steigert. MDMA ist vor allem unter dem Namen Ecstasy bekannt.",
+    "Erscheinungsform": "Farblose bis bräunliche Kristalle oder in Pillenform (Ecstasy)",
     "Konsumform": "Oral :lips: oder nasal :pig_nose:",
     "Dosierung": {
       "Oral": {
-        "leichte Dosis": "50-75 mg",
+        "leichte Dosis": "50–75 mg",
         "Mittlere Dosis": "75-125 mg",
         "Hohe Dosis": "125-180 mg"
       },
-      "comment": "H\u00e4ufig wird 1.5 mg je kg K\u00f6rpergewicht verwendet. H\u00f6here Dosierungen k\u00f6nnen die Wirk- und Peakdauer verl\u00e4ngern. Ein gef\u00fcllter Magen kann den Wirkungseintritt merklich verz\u00f6gern, sowie die Intensit\u00e4t verringern."
+      "Nasal": {
+        "leichte Dosis": "25–40 mg",
+        "Mittlere Dosis": "40-65 mg",
+        "Hohe Dosis": "65-90 mg"
+      },
+      "comment": "Höhere Dosierungen können die Wirk- und Peakdauer verlängern. Ein gefüllter Magen kann den Wirkungseintritt merklich verzögern sowie die Intensität verringern. Faustregel: 1,5 mg je kg Körpergewicht. Um die Nebenwirkungen beim Nachlegen zu minimieren, empfiehlt es sich, nicht mehr als die Hälfte der Initialdosis zu konsumieren."
     },
     "Wirkdauer": {
       "Oral": {
         "Wirkungseintritt": "30-60 Minuten",
         "Peak": "2-3 Stunden",
-        "Wirkdauer": "5-8 Stunden"
+        "Wirkdauer": "4-6 Stunden"
       },
       "Nasal": {
         "Wirkungseintritt": "1-10 Minuten",
         "Peak": "1-2 Stunden",
-        "Wirkdauer": "2- 4 Stunden"
+        "Wirkdauer": "2-4 Stunden"
       }
     },
-    "Wirkung": ":white_check_mark: Positiv: Stimmungshebend, verst\u00e4rkter Drang zur Kommunikation, starke Gef\u00fchle von Liebe und Empathie; :white_large_square: Neutral: Stimulierend, verminderter Appetit, Erh\u00f6hung der K\u00f6rpertemperatur und des Pulses; :small_red_triangle: Negativ: Nervosit\u00e4t, \u00dcbelkeit, Paranoia, Anspannung der Kiefermuskulatur, Wahrung der pers\u00f6nlichen Grenzen gest\u00f6rt, schlafunterdr\u00fcckend, depressive Stimmung beim Comedown und den darauffolgenden Tagen",
-    "Toleranz": "MDMA baut eine sofortige Toleranz auf. Der komplette Abbau der Toleranz ist erst nach 2-3 Monaten erreicht. Daher wird eine l\u00e4ngere Konsumpause empfohlen. Eine Kreuztoleranz mit den meisten anderen empathogenen Substanzen ist vorhanden.",
-    "Kombinationen": ":arrow_up_small: Verst\u00e4rkt: Cannabis, Ketamin, Lachgas, Psychedelika; :arrow_down_small: Verringert: Alkohol, Benzodiazepine, Serotonin-Wiederaufnahmehemmer; :warning: Gef\u00e4hrlich: MAO-Hemmer, Tramadol",
-    "VIVID Safer-Use Tipps": "Beachtung von Set und Setting f\u00fcr einen angenehmen Trip, genaues Dosieren mit einer passenden Waage, Wasser trinken, eigenes Ziehr\u00f6hrchen verwenden, saubere Ziehfl\u00e4che verwenden, Freund*innen \u00fcber konsumierte Menge informieren, Anwesenheit einer n\u00fcchternen Tripsitter*in. Nach einer Konsumpause von 2-3 Monaten ist davon auszugehen, dass der K\u00f6rper sich erholt hat und eine erneute vollwertige Erfahrung m\u00f6glich ist."
+    "Wirkung": ":white_check_mark: Positiv: Stimmungshebend, verstärkter Drang zur Kommunikation, starke Gefühle von Liebe und Empathie; :white_large_square: Neutral: Stimulierend, verminderter Appetit, Erhöhung der Körpertemperatur und des Pulses; :small_red_triangle: Negativ: Nervosität, Übelkeit, Paranoia, Anspannung der Kiefermuskulatur, Verschiebung der persönlichen Grenzen, Schlaflosigkeit, depressive Stimmung beim Comedown und den darauffolgenden Tagen, Belastung des Herz-Kreislaufsystems",
+    "Toleranz": "MDMA baut eine sofortige Toleranz auf. Ein erneuter Konsum innerhalb von drei Monaten ist bedenklich, da die Stimmungsregulation noch beeinträchtigt sein kann und sich die volle Wirkung selbst mit einer höheren Dosis nicht mehr erreichen lässt. Eine Kreuztoleranz mit den meisten anderen Amphetaminen ist vorhanden.",
+    "Kombinationen": ":arrow_up_small: Verstärkt: Cannabis, Ketamin, Lachgas, Psychedelika; :arrow_down_small: Verringert: Alkohol, Benzodiazepine, Serotonin-Wiederaufnahmehemmer; :warning: Gefährlich: DXM, MAO-Hemmer (z. B. einige Antidepressiva), Tramadol",
+    "VIVID Safer-Use Tipps": "Beachtung von Set und Setting für einen angenehmen Trip, genaues Dosieren mit einer passenden Waage, beim Tanzen ausreichend Wasser trinken, Kristalle gründlich zerkleinern, eigenes Ziehröhrchen sowie saubere Ziehfläche verwenden, Freund*innen über konsumierte Menge informieren, Anwesenheit einer nüchternen Bezugsperson. Nach einer Konsumpause von 2-3 Monaten ist davon auszugehen, dass der Körper sich erholt hat und eine erneute vollwertige Erfahrung möglich ist."
   }
 }
