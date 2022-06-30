@@ -30,6 +30,9 @@ def main():
     streamlit_analytics.start_tracking()
     drug_list = tuple(subs_dict.keys())
 
+    st.title("Substanzen Info")
+    st.info("Eine digitale Version des VIVID-Substanzen-Flyers")
+
     st.write("##")
 
 
