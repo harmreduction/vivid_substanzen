@@ -1,3 +1,5 @@
+.streamlit/
+.idea/
 *.ipynb*
 *.pdf
 **/nutts

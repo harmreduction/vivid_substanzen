@@ -16,11 +16,11 @@ st.set_page_config(
  )
 
 #app.py
-import de_substances, de_disclaimer
+import de_substances, de_disclaimer, tripsit_combos
 
 PAGES = {
     "Substanzen": de_substances,
-    # "MCDA Drugs": en_app,
+    "Tripsit Kombos": tripsit_combos,
     "Disclaimer": de_disclaimer,
 }
 
@@ -35,7 +35,7 @@ st.sidebar.markdown(title_alignment, unsafe_allow_html=True)
 
 with st.sidebar:
     selection = option_menu("", list(PAGES.keys()),
-    icons=['file-earmark-text', 'info-circle'], menu_icon="cast", default_index=0,
+    icons=['file-earmark-text', 'exclamation-triangle', 'info-circle'], menu_icon="cast", default_index=0,
     styles={
         "nav-link": {"font-size": "16px", "text-align": "left", "margin":"0px"},
         "nav-link-selected": {"background-color": "ffffff"},
