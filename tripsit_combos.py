@@ -87,7 +87,7 @@ For additional information check out the TripSit [Factsheet](http://drugs.tripsi
 For re-use and attribution info see [here](https://wiki.tripsit.me/wiki/Drug_combinations#Use_.26_Attribution)
 
 Click on the TriPsit Logo to check out the TripSit App 2 with this and more useful information!""")
-
+    st.markdown("""#### a special thanks to @ajar @moonbear and the tripsit team for their help with the development of this tiny app :hearts:""")
     _, footcol, _ = st.columns(3)
 
     with footcol:
