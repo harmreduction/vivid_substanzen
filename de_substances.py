@@ -5,12 +5,6 @@ import json
 import streamlit_analytics
 
 
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
-
-local_css("style.css")
-
 def load_data():
     path_ = "./data"
 
@@ -35,6 +29,9 @@ subs_dict = load_data()
 def main():
     streamlit_analytics.start_tracking()
     drug_list = tuple(subs_dict.keys())
+
+    st.title("Substanzen Info")
+    st.info("Eine digitale Version des VIVID-Substanzen-Flyers")
 
     st.write("##")
 

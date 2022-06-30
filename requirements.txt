@@ -2,6 +2,8 @@ plotly==5.4.0
 six==1.16.0
 tenacity==8.0.1
 openpyxl
+Pillow
 matplotlib
+fontawesome
 streamlit_option_menu
 git+https://github.com/franasal/streamlit-analytics
