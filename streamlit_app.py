@@ -20,7 +20,7 @@ import de_substances, de_disclaimer, tripsit_combos
 
 PAGES = {
     "Substanzen": de_substances,
-    "Tripsit Kombos": tripsit_combos,
+    "Drug Combinations (EN)": tripsit_combos,
     "Disclaimer": de_disclaimer,
 }
 
