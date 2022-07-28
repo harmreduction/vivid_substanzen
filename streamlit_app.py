@@ -14,6 +14,13 @@ st.set_page_config(
          'About': "**App Author: [Francisco Arcila](https://twitter.com/franarsal/)** \n\nConcept design: Francisco Arcila."
      }
  )
+# some users landed in the log area and couldn't easily go back
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 #app.py
 import de_substances, de_disclaimer, tripsit_combos
