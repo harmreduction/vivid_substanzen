@@ -7,7 +7,7 @@
 ### ℹ️ About
 
 
-#### TripSit combinations development branch 
+#### Install VIVID SUBSTANZEN with TripSit combinations 
 
 ```python
 python3 -m venv env
