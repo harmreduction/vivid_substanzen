@@ -14,14 +14,11 @@ def load_data():
     subs_dict = substance_dic.copy()
 
     for subs in list(subs_dict.keys()):
-        subs_dict[subs]["comment"]=subs_dict[subs]["Dosierung"]["comment"]
-        subs_dict[subs]["Dosierung"].pop('comment', None)
-        subs_dict[subs]["dose_df"] = pd.DataFrame.from_dict(subs_dict[subs]["Dosierung"])
-        subs_dict[subs]["wirkdauer_df"] = pd.DataFrame.from_dict(subs_dict[subs]["Wirkdauer"])
-        if "Peakeintritt/Peakdauer" in subs_dict[subs]["wirkdauer_df"].index:
-            rows_ord = ['Wirkungseintritt', 'Peakeintritt/Peakdauer', 'Wirkdauer']
-        else:
-            rows_ord = ['Wirkungseintritt', 'Peak', 'Wirkdauer']
+        subs_dict[subs]["comment"]=subs_dict[subs]["comment"]
+
+        subs_dict[subs]["dose_df"] = pd.DataFrame.from_dict(subs_dict[subs]["dose_dict"])
+        subs_dict[subs]["wirkdauer_df"] = pd.DataFrame.from_dict(subs_dict[subs]["wirkdauer_dict"])
+        rows_ord = ['Wirkungseintritt', 'Peak', 'Wirkdauer']
         subs_dict[subs]["wirkdauer_df"] = subs_dict[subs]["wirkdauer_df"].reindex(rows_ord)
     return subs_dict
 
@@ -39,11 +36,10 @@ def main():
     col1, _, col2 = st.columns(3)
 
 
-
     with col1:
         substance = st.selectbox("Wählt eine Substanz aus", drug_list)
     with col2:
-        st.markdown(f"# {subs_dict[substance]['Substanz']}")
+        st.markdown(f"# {substance}")
 
 
     st.info(f"###### {subs_dict[substance]['Beschreibung']}")
@@ -53,12 +49,12 @@ def main():
     with col3:
 
         st.markdown(f"#### {'Dosierung'}")
-        st.dataframe(subs_dict[substance]["dose_df"])
+        st.table(subs_dict[substance]["dose_df"])
 
     with col4:
 
         st.markdown(f"#### {'Wirkdauer'}")
-        st.dataframe(subs_dict[substance]["wirkdauer_df"])
+        st.table(subs_dict[substance]["wirkdauer_df"])
 
     st.markdown(f"###### {subs_dict[substance]['comment']}")
 
