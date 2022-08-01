@@ -23,7 +23,7 @@ for subst, y in substances_db.iterrows():
 
     #     Dose dataframe
     dose_dfor = pd.DataFrame.from_dict(y[dose_oral]).rename(columns={subst: 'Oral'})
-    dose_dfor.index = dose_df.index.str.replace('Dosierung Oral ', '')
+    dose_dfor.index = dose_dfor.index.str.replace('Dosierung Oral ', '')
     dose_dfnas = pd.DataFrame.from_dict(y[dose_nasal]).rename(columns={subst: 'Nasal'})
     dose_dfnas.index = dose_dfnas.index.str.replace('Dosierung Nasal ', '')
 
