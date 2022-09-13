@@ -5,5 +5,5 @@ openpyxl
 Pillow
 matplotlib
 fontawesome
-streamlit_option_menu
+streamlit_option_menu==0.3.2
 git+https://github.com/franasal/streamlit-analytics
