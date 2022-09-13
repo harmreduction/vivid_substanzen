@@ -6,4 +6,4 @@ Pillow
 matplotlib
 fontawesome
 streamlit_option_menu
-git+https://github.com/franasal/streamlit-analytics
+streamlit-analytics
