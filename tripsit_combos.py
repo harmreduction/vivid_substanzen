@@ -1,6 +1,5 @@
 import json
 import urllib.request
-import streamlit_analytics
 import streamlit as st
 import os
 from PIL import Image
@@ -36,7 +35,6 @@ def load_data():
 
 def main():
 
-    streamlit_analytics.start_tracking()
     pil_path, subs_dict = load_data()
     drug_list = tuple(subs_dict.keys())
 
@@ -93,5 +91,4 @@ Click on the TriPsit Logo to check out the TripSit App 2 with this and more usef
     with footcol:
         foot = f' [<img src="https://raw.githubusercontent.com/TripSit/combogen/master/resources/img/logo.svg" alt="drawing" width="200"/>](https://play.google.com/store/apps/details?id=me.tripsit.mobile&hl=en_US&gl=US)'
         st.markdown(foot, unsafe_allow_html=True)
-    streamlit_analytics.stop_tracking(unsafe_password=st.secrets["analytics"])
 

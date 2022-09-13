@@ -2,7 +2,6 @@ import pandas as pd
 import streamlit as st
 import os
 import json
-import streamlit_analytics
 
 
 def load_data():
@@ -24,7 +23,6 @@ def load_data():
 
 subs_dict = load_data()
 def main():
-    streamlit_analytics.start_tracking()
     drug_list = tuple(subs_dict.keys())
 
     st.title("Substanzen Info")
@@ -113,4 +111,3 @@ def main():
     with footcol:
         foot = f' [<img src="https://vivid-hamburg.de/wp-content/uploads/2020/05/logo_lang.jpg" alt="drawing" width="400"/>](https://vivid-hamburg.de/)'
         st.markdown(foot, unsafe_allow_html=True)
-    streamlit_analytics.stop_tracking(unsafe_password=st.secrets["analytics"])
