@@ -1,5 +1,4 @@
 import json
-import urllib.request
 import streamlit as st
 import os
 from PIL import Image
@@ -27,8 +26,9 @@ def load_data():
     pil_path = os.path.join(path_, "PIL")
 
     # load combo info from tripsit.me
-    with urllib.request.urlopen("https://tripsit.me/combo_beta.json") as url:
-        combos = json.loads(url.read().decode())
+    json_tripsit = os.path.join(path_, "combo_beta.json")
+    with open(json_tripsit) as trip_js:
+        combos = json.load(trip_js)
 
     return pil_path, combos
 
