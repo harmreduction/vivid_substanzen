@@ -2,7 +2,7 @@
 
 ## VIVID SUBSTANZEN
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/viewsondrugs/vivid_substanzen) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40ViewsOnDrugsBot)](https://twitter.com/ViewsOnDrugsBot)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/viewsondrugs/vivid_substanzen) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40VIVIDHamburg)](https://twitter.com/VIVIDHamburg)
 
 ### ℹ️ About
 
