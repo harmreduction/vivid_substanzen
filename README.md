@@ -1,4 +1,5 @@
-[<img src="https://vivid-hamburg.de/wp-content/uploads/2020/05/logo_lang.jpg"  alt="centered image" class="center" width="300"/>](https://vivid-hamburg.de/)
+[<img src="https://vivid-hamburg.de/wp-content/uploads/2020/05/logo_lang.jpg"  alt="centered image" class="center" width="300"/>](https://vivid-hamburg.de/) 
+[<img src="https://raw.githubusercontent.com/TripSit/combogen/master/resources/img/logo.svg" alt="drawing" width="200"/>](https://play.google.com/store/apps/details?id=me.tripsit.mobile&hl=en_US&gl=US)
 
 ## VIVID SUBSTANZEN
 
