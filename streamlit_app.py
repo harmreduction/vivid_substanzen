@@ -18,9 +18,13 @@ st.set_page_config(
 hide_menu_style = """
         <style>
         #MainMenu {visibility: hidden;}
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        header {visibility: hidden;}
         </style>
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
+
 
 #app.py
 import de_substances, de_disclaimer, tripsit_combos
@@ -51,3 +55,5 @@ with st.sidebar:
 # selection = st.sidebar.radio("",list(PAGES.keys()))
 page = PAGES[selection]
 page.main()
+
+
